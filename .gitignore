@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large raw data files (keep processed output, skip heavy raw copies)
+data/raw/essential_skills.csv
+data/raw/software_skills.csv
+data/raw/work_styles.csv
+data/raw/career_interest_types.csv
+data/raw/occupation_data.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
